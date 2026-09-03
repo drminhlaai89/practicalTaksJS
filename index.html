@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="src/css/font.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <meta charset="utf-8">
+    <title>Task 1.js app</title>
+    <style>
+      body { margin: 0; }
+    </style>
+  </head>
+  <body>
+    <canvas class="webgl"></canvas>
+    <!-- Header Overlay -->
+    <div id="ui-header">
+        <div class="top-bar-yellow">
+            <!-- Left Avatar Box -->
+            <div class="icon-card">
+                <img src="src/resources/images/Player_Icon.webp" alt="Avatar" />
+            </div>
+
+            <!-- Center Counter Box -->
+            <div class="counter-card">
+                <img src="src/resources/images/Crystal_Icon.webp" alt="Crystal" />
+                <span id="crystal-count">0</span>
+            </div>
+
+            <!-- Right Inventory Box -->
+            <div class="icon-card">
+                <img src="src/resources/images/Inventory_Icon.webp" alt="Inventory" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Footer Overlay -->
+    <div id="ui-footer">
+        <button id="dig-btn">
+            <img src="src/resources/images/Button.webp" alt="DIG" />
+        </button>
+    </div>
+    <script type="module" src="/src/index.ts"></script>    
+</body>
+</html>
